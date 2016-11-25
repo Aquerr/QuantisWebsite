@@ -1,0 +1,59 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Quantis</title>
+    <meta name="description" content="Serwer Quantis" />
+    <meta name="keywords" content="quantis, mc" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body class="body">
+<div class="calosc">
+    <nav class="nav">
+        <div class="logo">
+            Quantis
+        </div>
+        <ul class="menu">
+            <li class="elementMenu">
+                O serwerze
+            </li>
+            <li id="Aktualnosci" class="elementMenu">
+                Aktualności
+            </li>
+            <li class="elementMenu">
+                Itemshop
+            </li>
+            <li class="elementMenu">
+                Dynamiczna mapa
+            </li>
+            <li class="elementMenu">
+                Download
+            </li>
+        </ul>
+    </nav>
+    <div id="content" class="zawartosc">
+        <p id="firstContent"></p>
+        W trakcie.
+    </div>
+    <div class="footer">
+        &copy Quantis 2016
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+    $(document)
+        .ready(function() {
+            $('#Aktualnosci')
+                .click(function() {
+                    $("#firstContent").hide();
+                    $("#firstContent")
+                        .html('Aktualność #1: Strona interentowa naszego serwera została stworzona!')
+                        .slideDown('slow');
+                });
+        });
+</script>

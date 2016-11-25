@@ -1,0 +1,90 @@
+.body
+{
+	background-image: url("img/mcwozniak.png");
+    background-color: black;
+	background-attachment: fixed;
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+}
+.calosc
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
+	opacity: 0.5;
+}
+.navnav
+{
+	background-color: white;
+	padding: 5px;
+	height: 64px;
+	opacity: 1;
+}
+.logo
+{
+	margin-right: 10px;
+	font-size: 48px;
+	background-color: white;
+	color: black;
+	float: left;
+	border: solid;
+	border-color: black;
+	border-radius :20px;
+	letter-spacing: 3px;
+	opacity: 1;
+}
+.menu
+{
+	float: left;
+	width: auto;
+	opacity: 1;
+    list-style-type: none;
+}
+.elementMenu
+{
+	height: 58px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	font-size: 24px;
+	background-color: black;
+	color: white;
+	border: solid;
+	border: 1px;
+	border-color: black;
+	transition-duration: 0.5s;
+	margin-right: 2px;
+	border-radius: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 54px;
+	opacity: 1;
+}
+.elementMenu:hover
+{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	opacity: 1;
+}
+.zawartosc
+{
+	background-color: gray;
+	padding: 5px;
+	font-size:36px;
+	min-height: 1000px;
+	clear: both;
+	border-top: 2px solid #333;
+	opacity: 1;
+}
+.footer
+{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	min-height: 50px;
+	line-height: 48px;
+	opacity: 1;
+}
